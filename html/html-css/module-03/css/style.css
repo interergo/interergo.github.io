@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"');
+.top-menu {
+  display : block;
+  position: relative;
+}
+.top-menu ul {
+  max-width   : 580px;
+  margin-right: auto;
+  margin-left : auto;
+  padding     : 0px;
+}
+.top-menu li {
+  display: inline-block;
+}
+.top-menu a {
+  padding        : 1em;
+  display        : block;
+  background     : none;
+  text-decoration: none;
+  color          : #626262;
+}
+.top-menu a:hover {
+  color: #44b6f5;
+}
+.wrapper {
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: auto;
+  margin-left : auto;
+  
+  max-width: 960px;
+  
+  padding-right: 10px;
+  padding-left : 10px;
+}
+img {
+  height        : 280px;
+  width         : 420px;
+  padding-bottom: 30px;
+}
+.wrapper_left {
+  display: inline-block;
+  text-align: left;
+  max-width: 470px;
+  margin-right: auto;
+  margin-left : auto;
+  padding-right: 10px;
+  padding-left : 10px;
+}
+.wrapper_right {
+  display: inline-block;
+  text-align: left;
+  max-width: 470px;
+  margin-right: auto;
+  margin-left : auto;
+  padding-right: 10px;
+  padding-left : 10px;
+}
+footer {
+  position: relative;
+  height: 60px;
+  padding : 15px;
+  font: 14px "Playfair Display",sans-serif;
+  color: #666666;
+}
+button {
+  display         : block;
+  font-size       : 20px;
+  color           : #666666;
+  border          : 1px solid;
+  margin-right : auto;
+  margin-left  : auto;
+  padding : 15px
+}
+.subtitle {
+font: lighter 10px "Ubuntu",sans-serif;
+color: #c8c3b9;
+}
+.caption {
+font: 30px "Playfair Display",sans-serif;
+color: #666666;
+}
+.main_text{
+font: 14px "Playfair Display",sans-serif;
+color: #666666;
+}
