@@ -1,53 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"');
+* {
+  margin-top: 0px;
+ }
 .top-menu {
-  display : block;
-  position: relative;
+display : block;
+position: relative;
 }
 .top-menu ul {
-  max-width   : 580px;
-  margin-right: auto;
-  margin-left : auto;
-  padding     : 0px;
+max-width   : 580px;
+margin-right: auto;
+margin-left : auto;
+padding     : 0px;
 }
 .top-menu li {
-  display: inline-block;
+display: inline-block;
+margin-right: 8%;
+}
+.top-menu li:nth-last-child(1) {
+margin-right: 0px;
 }
 .top-menu a {
-  padding        : 1em;
-  display        : block;
-  background     : none;
-  text-decoration: none;
-  color          : #626262;
+padding        : 1em;
+display        : block;
+background     : none;
+text-decoration: none;
+color          : #626262;
 }
-.top-menu a:hover {
-  color: #44b6f5;
+.top-menu a:hover { 
+color: #44b6f5;
 }
-.wrapper {
-  box-sizing: border-box;
+.wrapper { 
   text-align: center;
   margin-right: auto;
   margin-left : auto;
-  
   max-width: 960px;
-  
-  padding-right: 10px;
-  padding-left : 10px;
 }
 img {
   height        : 280px;
   width         : 420px;
   padding-bottom: 30px;
 }
-.wrapper_left {
-  display: inline-block;
-  text-align: left;
-  max-width: 470px;
-  margin-right: auto;
-  margin-left : auto;
-  padding-right: 10px;
-  padding-left : 10px;
-}
-.wrapper_right {
+.wrapper_ {
+  vertical-align: top;
   display: inline-block;
   text-align: left;
   max-width: 470px;
