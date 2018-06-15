@@ -10,17 +10,19 @@ position: relative;
 max-width   : 580px;
 margin-right: auto;
 margin-left : auto;
-padding     : 0px;
+padding  : 0px;
 }
 .top-menu li {
 display: inline-block;
 margin-right: 8%;
+font: 18px "Playfair Display",sans-serif;
 }
 .top-menu li:nth-last-child(1) {
 margin-right: 0px;
 }
 .top-menu a {
-padding        : 1em;
+padding-top    : 75px;
+padding-bottom : 80px;
 display        : block;
 background     : none;
 text-decoration: none;
@@ -71,10 +73,15 @@ font: lighter 10px "Ubuntu",sans-serif;
 color: #c8c3b9;
 }
 .caption {
+padding-bottom: 10px;
 font: 30px "Playfair Display",sans-serif;
 color: #666666;
 }
 .main_text{
+padding-bottom: 113px;
 font: 14px "Playfair Display",sans-serif;
 color: #666666;
+}
+.alignment {
+  padding-left  : 75px;
 }
