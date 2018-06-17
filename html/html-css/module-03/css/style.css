@@ -3,14 +3,13 @@
   margin-top: 0px;
  }
 .top-menu {
-display : block;
-position: relative;
+padding: 75px 0;
+margin-bottom: 5px;
 }
 .top-menu ul {
-max-width   : 580px;
-margin-right: auto;
-margin-left : auto;
-padding  : 0px;
+  text-align: center;
+  padding-left: 0px;
+  margin: 0px;
 }
 .top-menu li {
 display: inline-block;
@@ -21,8 +20,6 @@ font: 18px "Playfair Display",sans-serif;
 margin-right: 0px;
 }
 .top-menu a {
-padding-top    : 75px;
-padding-bottom : 80px;
 display        : block;
 background     : none;
 text-decoration: none;
@@ -41,6 +38,7 @@ img {
   height        : 280px;
   width         : 420px;
   padding-bottom: 30px;
+  overflow: hidden;
 }
 .wrapper_ {
   vertical-align: top;
@@ -55,7 +53,7 @@ img {
 footer {
   position: relative;
   height: 60px;
-  padding : 15px;
+  margin : 15px;
   font: 14px "Playfair Display",sans-serif;
   color: #666666;
 }
@@ -73,15 +71,12 @@ font: lighter 10px "Ubuntu",sans-serif;
 color: #c8c3b9;
 }
 .caption {
-padding-bottom: 10px;
+margin-bottom: 10px;
 font: 30px "Playfair Display",sans-serif;
 color: #666666;
 }
 .main_text{
-padding-bottom: 113px;
+margin-bottom: 113px;
 font: 14px "Playfair Display",sans-serif;
 color: #666666;
-}
-.alignment {
-  padding-left  : 75px;
 }
