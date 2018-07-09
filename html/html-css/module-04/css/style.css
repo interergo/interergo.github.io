@@ -32,23 +32,23 @@ color      : #1abc9c;
 font-weight: bold;
 }
 .site-navigation {
-    margin-left : 1%;
-    float       : right;
-    width       : 69%;
-    font-family : 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size   : 14px;
-    font-weight : bold;
-    list-style  : none;
-    padding-left: 0px;
-    color       : #000000;
+    margin-left   : 1%;
+    float         : right;
+    width         : 69%;
+    font-family   : 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size     : 14px;
+    font-weight   : bold;
+    list-style    : none;
+    padding-left  : 0px;
+    color         : #000000;
+    vertical-align: middle;
 }
 .site-navigation li {
     float: right;
 }
 .site-navigation a {
     display        : block;
-    padding        : 0 10px;
-    font-size      : 20px;
+    padding        : 10px;
     text-decoration: none;
     text-transform : uppercase;
     color          : #000000;
@@ -71,8 +71,7 @@ text-align: center;
 margin    : 75px 0px 120px 0px;
 font      : 48px "Roboto", sans-serif;
 color     : #666666;
-/*display: inline-block;*/
-position: relative;
+position  : relative;
 }
 .headline:after {
     content   : '';
