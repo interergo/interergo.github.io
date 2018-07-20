@@ -1,0 +1,245 @@
+@font-face {
+	font-family: 'Pe-icon-7-stroke';
+	src        : url('fonts/Pe-icon-7-stroke.eot?d7yf1v');
+	src        : url('fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v') format('embedded-opentype'),
+		url('fonts/Pe-icon-7-stroke.woff?d7yf1v') format('woff'),
+		url('fonts/Pe-icon-7-stroke.ttf?d7yf1v') format('truetype'),
+		url('fonts/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke') format('svg');
+	font-weight: normal;
+	font-style : normal;
+}
+/*@font-face {
+    font-family: 'Pe';
+    src        : url(../fonts/Pe-icon-7-stroke.woff) format('woff'),
+    src        : url(../fonts/Pe-icon-7-stroke.ttf) format('truetype'),
+    src        : url(../fonts/Pe-icon-7-stroke.eot) format('eot'),
+    src        : url(../fonts/Pe-icon-7-stroke.svg) format('svg'),      ;
+    }
+    */
+
+*   {
+    box-sizing: border-box;
+    padding   : 0;
+    margin    : 0;
+    }
+body {
+    width : 1600px;
+    height: 1365px;
+    /*margin  : auto;*/
+    height  : auto;
+    overflow: auto;
+    }
+.masthead {
+    max-width     : 1600px;
+    margin        : auto;
+    padding       : 33px 0px 23px 0px;
+    text-transform: uppercase;
+    height        : auto;
+    overflow      : auto;
+    }
+.brand {
+    float         : left;
+    vertical-align: middle;
+    width         : 35%;
+    font          : 30px "Roboto", sans-serif;
+    color         : #666666;
+    font-weight   : 800;
+    text-align    : center;
+    }
+.brand::first-letter {
+    color      : #1abc9c;
+    font-weight: bold;
+    }
+.site-navigation {
+    margin-right  : 235px;
+    float         : right;
+    max-width     : 600px;
+    font-family   : 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size     : 14px;
+    font-weight   : bold;
+    list-style    : none;
+    padding-left  : 0px;
+    color         : #000000;
+    vertical-align: middle;
+    }
+.site-navigation li {
+    float: right;
+    }
+    .site-navigation a {
+    display        : block;
+    margin-left    : 0px;
+    padding        : 6px 9px;
+    text-decoration: none;
+    text-transform : uppercase;
+    color          : #000000;
+    }
+.site-navigation a:hover {
+        color: #1abc9c;
+    }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear  : both;
+    }
+.main {
+    max-width: 980px;
+    margin   : auto;
+    height   : 100vh;
+    }
+.gallery {
+    display  : block;
+    max-width: auto;;
+    margin   : auto;
+    }
+.headline {
+    width          : 1600px;
+    height         : 600px;
+    display        : block;
+    justify-content: space-between;
+    flex-direction : row;
+    color          : rgb(255,255,255);
+    vertical-align : center;
+    background     : url(../img/backgrouhd.gif)
+    }
+.flex-container {
+    width          : 1110px;
+    margin         : auto auto;
+    height         : 600px;
+    display        : flex;
+    justify-content: space-between;
+    }
+.row { flex-direction: row;}
+.sign {
+    display       : inline-block;
+    vertical-align: middle;
+    color         : #ffffff;
+    margin-top    : auto;
+    margin-bottom : auto;
+    width         : 104px;
+    height        : 104px;
+    text-align    : center;
+    font-size     : 60px;
+    font-family   : 'Pe';
+    background    : #19bb9b;
+    }
+.sign::before {
+    content       : "";
+    display       : inline-block;
+    min-height    : inherit;
+    height        : 100%;
+    vertical-align: middle;
+}
+.main_heading {
+    margin-top    : auto;
+    margin-bottom : auto;
+    padding       : 0px 75px;
+    width         : 900px;
+    height        : 125px;
+    vertical-align: center;
+    }
+span[rel="big"]{
+    letter-spacing: -1px;
+    font-weight   : 800;
+    font          : 60px "Roboto", sans-serif;
+    color         : #ffffff;
+    }
+span[rel="small"]{
+    font-weight: 800;
+    font       : 24px "Roboto", sans-serif;
+    color      : #ffffff;
+    }
+.main_heading > span {
+    display   : block;
+    width     : auto;
+    height    : auto;
+    background: var(--flex-container);
+    padding   : 5px;
+    }
+.item {
+    float      : left;
+    width      : 255px;
+    height     : 330px;
+    font-family: 'Roboto', sans-serif;
+    font-size  : 18px;
+    margin     : 15px;
+    text-align : center;
+    }
+.news img {
+    height        : 236px;
+    width         : 350px;
+    padding-bottom: 0px;
+    overflow      : auto;
+    }
+.item img {
+    height          : 280px;
+    width           : 255px;
+    padding-bottom  : 0px;
+    overflow        : auto;
+    background-color: #e7eefb;
+    overflow        : hidden;
+    }
+.footer_main {
+    width      : 350px;
+    height     : 82px;
+    font-family: 'Open Sans', sans-serif;
+    margin     : 15px;
+    text-align : center;
+    }
+.name_goods {
+    box-sizing      : border-box;
+    background-color: #323232;
+    float           : left;
+    vertical-align  : middle;
+    text-align      : left;
+    text-transform  : uppercase;
+    width           : 80%;
+    padding         : 12px;
+    color           : #ffffff;
+    }
+.price {
+    box-sizing      : border-box;
+    background-color: #8c8c8c;
+    float           : right;
+    vertical-align  : middle;
+    width           : 20%;
+    padding         : 12px;
+    text-align      : center;
+    color           : #ffffff;
+    }
+.price_and_name {
+    font-family: 'Roboto', sans-serif;
+    font-size  : 18px;
+    color      : #ffffff;
+    margin     : auto;
+    padding    : 0px;
+    height     : auto;
+    overflow   : auto
+    }
+.item:hover .name_goods {
+    background-color: #1abc9c;
+    }
+.item:hover .price {
+    background-color: #7fd9c7;
+    }
+a   {
+        float: left;
+    }
+a.button1 {
+    display        : inline-block;
+    vertical-align : middle;
+    width          : 160px;
+    height         : 51px;
+    font-size      : 16px;
+    font-family    : 'Open Sans', sans-serif;
+    color          : #fff;
+    text-decoration: none;
+    text-align     : center;
+    border-radius  : 3px;
+    background     : #4ec6ab;
+    }
+a:before {
+    content       : '';
+    display       : inline-block;
+    height        : 100%;
+    vertical-align: middle;
+    }
